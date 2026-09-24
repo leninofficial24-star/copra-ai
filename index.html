@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COPRA AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="logo">COPRA <span>AI</span></div>
+      <button id="newChat">＋ New chat</button>
+      <div class="side-note">Your personal AI assistant</div>
+    </aside>
+
+    <main class="chat">
+      <header>
+        <div>
+          <h1>COPRA AI</h1>
+          <p>Your personal assistant</p>
+        </div>
+        <div class="status">● Ready</div>
+      </header>
+
+      <section id="messages" class="messages">
+        <div class="welcome">
+          <h2>Vanakkam 👋</h2>
+          <p>I'm COPRA AI. Ask me anything.</p>
+          <div class="chips">
+            <button>Help me plan my day</button>
+            <button>Write a message</button>
+            <button>Give me an idea</button>
+          </div>
+        </div>
+      </section>
+
+      <form id="chatForm" class="composer">
+        <input id="prompt" autocomplete="off" placeholder="Message COPRA AI..." />
+        <button type="submit">➤</button>
+      </form>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
